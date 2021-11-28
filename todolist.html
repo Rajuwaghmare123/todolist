@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>TODO List</title>
+   <style>
+       
+        body{
+            background-image: url(https://i.pinimg.com/736x/19/17/42/191742980574958d9b3ab2b6eaccc779.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main{
+            width: 600px;
+            margin: 100px auto;
+            text-align: center;
+            box-shadow: 0 0 10px black;
+            padding: 30px;
+           background-color: rgb(156, 247, 242);
+        }
+        div{
+            text-align: center;
+            padding-left: 70px;
+            padding-bottom: 10px;
+        }   
+        button{
+            margin-left: 10px;
+        }
+        span{
+            margin-left: -57px;
+        
+        }
+   </style>
+</head>
+
+<body>
+    <div class="main">
+    <h1><span class="title">Todo</span>List</h1>
+    <div class="inputDiv">
+    	  Enter Text: <input type="text" class="input">
+    	   <button class="add">Create New Element</button><br>
+           <span id="error"></span>
+    </div>
+    <div class="container">
+    </div>
+    <script src="todolist.js"></script>
+</div>             
+</body>
+</html>
